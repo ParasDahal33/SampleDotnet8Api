@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\source\\repos\\GarmentClubApi\\GarmentClubApi\\GarmentClubApi.csproj": {}
+    "C:\\Users\\ASUS\\Documents\\Office\\Practice Project\\SampleDotnet8Api\\GarmentClubApi\\GarmentClubApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\source\\repos\\GarmentClubApi\\GarmentClubApi\\GarmentClubApi.csproj": {
+    "C:\\Users\\ASUS\\Documents\\Office\\Practice Project\\SampleDotnet8Api\\GarmentClubApi\\GarmentClubApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\GarmentClubApi\\GarmentClubApi\\GarmentClubApi.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\Office\\Practice Project\\SampleDotnet8Api\\GarmentClubApi\\GarmentClubApi.csproj",
         "projectName": "GarmentClubApi",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\GarmentClubApi\\GarmentClubApi\\GarmentClubApi.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Documents\\Office\\Practice Project\\SampleDotnet8Api\\GarmentClubApi\\GarmentClubApi.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\source\\repos\\GarmentClubApi\\GarmentClubApi\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Documents\\Office\\Practice Project\\SampleDotnet8Api\\GarmentClubApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,9 +45,83 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspNetCore.Hashids": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.ResponseCompression": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.6.2, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
